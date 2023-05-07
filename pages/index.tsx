@@ -32,8 +32,8 @@ function Home() {
 
       <div>
         <Heading>Watch</Heading>
-        <Heading level={2}>Latest Video</Heading>
-        <YouTubeVideo title="Minimax" url="https://youtube.com/embed/SLgZhpDsrfc" />
+        <Heading level={2}>Latest Videos</Heading>
+        <YouTubeVideo title="Most Recent" url="https://www.youtube.com/embed/videoseries?list=PLZErML25eQ-MCv6uHSSheskQ7nYHIf3Yg" />
         <Heading level={2}>Watch More</Heading>
         <div className="flex flex-row flex-wrap gap-2 md:justify-between items-stretch place-content-center">
           <VideoCard title="Dijkstra's Algorithm" url="https://youtu.be/EFg3u_E6eHU" img={require("../public/images/video-cards/dijkstra.png")} />
